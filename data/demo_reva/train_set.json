@@ -1,0 +1,38 @@
+{
+  "videos": {
+    "demo_video_001": {
+      "file_path": "videos/demo_short.mp4",
+      "dataset_name": "demo",
+      "mcq": {
+        "video_qa": {
+          "visual_text_understanding": [
+            {
+              "qa_id": "DEMO-TRAIN-001",
+              "question": "What type of business is advertised in the video title?",
+              "options": {
+                "A": "A grocery store",
+                "B": "A hand car wash",
+                "C": "A railway station",
+                "D": "A hotel"
+              },
+              "correct_answer": "B",
+              "reasoning": "The title card contains the words 'Premier Hand Car Wash'."
+            },
+            {
+              "qa_id": "DEMO-TRAIN-002",
+              "question": "Which place name appears in the largest line of text?",
+              "options": {
+                "A": "Oxford",
+                "B": "London",
+                "C": "Birmingham",
+                "D": "Bromsgrove"
+              },
+              "correct_answer": "D",
+              "reasoning": "The largest title reads 'Bromsgrove Car Wash'."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

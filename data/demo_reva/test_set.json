@@ -1,0 +1,38 @@
+{
+  "videos": {
+    "demo_video_001": {
+      "file_path": "videos/demo_short.mp4",
+      "dataset_name": "demo",
+      "mcq": {
+        "video_qa": {
+          "visual_text_understanding": [
+            {
+              "qa_id": "DEMO-TEST-001",
+              "question": "Which road name is displayed on the title card?",
+              "options": {
+                "A": "Oxford Road",
+                "B": "London Road",
+                "C": "Worcester Road",
+                "D": "Station Road"
+              },
+              "correct_answer": "C",
+              "reasoning": "The address text includes 'Worcester Road'."
+            },
+            {
+              "qa_id": "DEMO-TEST-002",
+              "question": "Which full service description appears below the main title?",
+              "options": {
+                "A": "Premier Hand Car Wash",
+                "B": "Express Laundry Service",
+                "C": "Automatic Fuel Station",
+                "D": "Budget Bicycle Repair"
+              },
+              "correct_answer": "A",
+              "reasoning": "The smaller text below the title reads 'Premier Hand Car Wash'."
+            }
+          ]
+        }
+      }
+    }
+  }
+}
