@@ -1,0 +1,14 @@
+Completed: 1000/1000 = 100.00%
+Total: 624/1000 = 62.40%
+question_type,correct,total,accuracy
+Causation Reasoning,43,48,89.58%
+Change Detection,73,130,56.15%
+Consequence Reasoning,29,33,87.88%
+General Understanding,36,46,78.26%
+Geometric Relation,74,107,69.16%
+Hypothetical Reasoning,36,43,83.72%
+Object and Land Cover Recognition,92,153,60.13%
+Perspective and Viewpoint,60,103,58.25%
+Structural Layout,61,86,70.93%
+Temporal Grounding,69,170,40.59%
+Trend and Pattern,51,81,62.96%
