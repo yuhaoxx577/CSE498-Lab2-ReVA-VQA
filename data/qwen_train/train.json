@@ -1,0 +1,42 @@
+[
+  {
+    "video": "videos/demo_short.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nPlease carefully watch the video and answer the following question.\nQuestion: What type of business is advertised in the video title?\nA. A grocery store\nB. A hand car wash\nC. A railway station\nD. A hotel\nPut the option letter inside <answer> </answer>."
+      },
+      {
+        "from": "gpt",
+        "value": "<answer>B</answer>"
+      }
+    ],
+    "metadata": {
+      "video_id": "demo_video_001",
+      "qa_id": "DEMO-TRAIN-001",
+      "dataset_name": "demo",
+      "category": "video_qa",
+      "question_type": "visual_text_understanding"
+    }
+  },
+  {
+    "video": "videos/demo_short.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nPlease carefully watch the video and answer the following question.\nQuestion: Which place name appears in the largest line of text?\nA. Oxford\nB. London\nC. Birmingham\nD. Bromsgrove\nPut the option letter inside <answer> </answer>."
+      },
+      {
+        "from": "gpt",
+        "value": "<answer>D</answer>"
+      }
+    ],
+    "metadata": {
+      "video_id": "demo_video_001",
+      "qa_id": "DEMO-TRAIN-002",
+      "dataset_name": "demo",
+      "category": "video_qa",
+      "question_type": "visual_text_understanding"
+    }
+  }
+]
