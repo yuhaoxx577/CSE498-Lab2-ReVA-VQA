@@ -1,0 +1,13 @@
+Question Type,Base Qwen (%),Fine-tuned Qwen (%),VILA (%)
+Causation Reasoning,89.58,89.58,79.17
+Change Detection,56.15,55.38,48.46
+Consequence Reasoning,87.88,87.88,69.7
+General Understanding,78.26,78.26,86.96
+Geometric Relation,69.16,65.42,36.45
+Hypothetical Reasoning,83.72,83.72,46.51
+Object and Land Cover Recognition,60.13,59.48,61.44
+Perspective and Viewpoint,58.25,56.31,53.4
+Structural Layout,70.93,67.44,48.84
+Temporal Grounding,40.59,40.0,32.35
+Trend and Pattern,62.96,64.2,48.15
+Overall,62.4,61.3,50.8

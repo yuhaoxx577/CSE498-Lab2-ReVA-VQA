@@ -1,0 +1,16 @@
+case_type,id,question_type,question,correct_answer,base_qwen,fine_tuned_qwen,vila,base_correct,fine_tuned_correct,vila_correct
+all_correct,Hawk_UAV-IL-DJI_0060_d4_02-Object and Land Cover Recognition-0,Object and Land Cover Recognition,How many sand traps are visible in the aerial view of the golf course?,B,B,B,B,True,True,True
+all_correct,Hawk_UAV-IL-DJI_0071_d4_03-Perspective and Viewpoint-0,Perspective and Viewpoint,What is the primary camera viewpoint classification in this video?,B,B,B,B,True,True,True
+all_correct,QA-000006,Change Detection,How does the visible area of the parking lot change throughout the video?,A,A,A,A,True,True,True
+fine_tuning_regression,QA-000133,Hypothetical Reasoning,What would likely happen if the large curved structure in the foreground were removed from the scene?,B,B,C,C,True,False,False
+fine_tuning_regression,QA-000919,Structural Layout,What is the primary spatial arrangement pattern of the lotus leaves in the pond?,D,D,C,D,True,False,True
+fine_tuning_regression,QA-002041,Change Detection,"At the beginning of the video, a white bus is visible in the foreground. What happens to the white bus as the video progresses?",A,A,C,C,True,False,False
+fine_tuning_improvement,QA-000791,Perspective and Viewpoint,What is the camera viewpoint classification for the video?,C,D,C,C,False,True,True
+fine_tuning_improvement,QA-001772,Structural Layout,"Based on the visual pattern of the road network, how can the lane layout be best described?",D,B,D,D,False,True,True
+fine_tuning_improvement,QA-002856,Temporal Grounding,How long does the group of pedestrians remain visible at the crosswalk in the center of the intersection?,B,A,B,B,False,True,True
+vila_only_correct,QA-001197,Object and Land Cover Recognition,How many cars are visible on the highway (including both directions) at the very beginning of the video (00:00)?,B,C,C,B,False,False,True
+vila_only_correct,QA-001770,Geometric Relation,How does the distance between the pedestrian on the sidewalk and the traffic light compare to the distance between the traffic light and the white van approaching the intersection?,A,D,D,A,False,False,True
+vila_only_correct,QA-001854,Perspective and Viewpoint,What is the camera's viewpoint classification in the video?,C,D,D,C,False,False,True
+all_wrong,Hawk_UAV-BE-DJI_0346_01-Trend and Pattern-0,Trend and Pattern,What is the motion direction of the camera relative to the school building and playground?,C,B,B,A,False,False,False
+all_wrong,Hawk_UAV-BE-DJI_0346_02-Perspective and Viewpoint-2,Perspective and Viewpoint,How does the camera move throughout the video to capture the scene?,B,C,C,C,False,False,False
+all_wrong,Hawk_UAV-BE-DJI_0346_04-Perspective and Viewpoint-0,Perspective and Viewpoint,What is the camera's viewpoint classification in terms of angle and altitude?,C,B,B,D,False,False,False
