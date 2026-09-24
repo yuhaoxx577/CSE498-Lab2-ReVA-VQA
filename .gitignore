@@ -1,0 +1,18 @@
+*.log
+*.tar.gz
+*.zip
+*.pt
+*.pth
+*.bin
+*.safetensors
+wandb/
+__pycache__/
+.DS_Store
+*.pyc
+.pytest_cache/
+
+# Generated model checkpoints can be very large.
+outputs/qwen_reva_sft/
+
+# Generated prepared evaluation data; recreate it from the annotations.
+reva_eval/data/rsvidqa/reva_v2_test_set.json
